@@ -24,7 +24,7 @@ export namespace Core {
     customInputState: InputState;
     darkMode: boolean;
     focusedNode: null | FocusedNode;
-    isConnected: boolean;
+    isConnected: boolean | null;
   };
 }
 
